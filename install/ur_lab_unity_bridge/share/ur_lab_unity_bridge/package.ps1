@@ -114,6 +114,5 @@ colcon_package_source_powershell_script "$env:COLCON_CURRENT_PREFIX/share/ur_lab
 colcon_package_source_powershell_script "$env:COLCON_CURRENT_PREFIX/share/ur_lab_unity_bridge/hook/pythonpath.ps1"
 colcon_package_source_powershell_script "$env:COLCON_CURRENT_PREFIX/share/ur_lab_unity_bridge/hook/pythonscriptspath.ps1"
 colcon_package_source_powershell_script "$env:COLCON_CURRENT_PREFIX/share/ur_lab_unity_bridge/hook/ament_prefix_path.ps1"
-colcon_package_source_powershell_script "$env:COLCON_CURRENT_PREFIX/../../build/ur_lab_unity_bridge/share/ur_lab_unity_bridge/hook/pythonpath_develop.ps1"
 
 Remove-Item Env:\COLCON_CURRENT_PREFIX

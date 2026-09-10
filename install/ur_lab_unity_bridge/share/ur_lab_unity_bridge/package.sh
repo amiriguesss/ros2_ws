@@ -82,7 +82,6 @@ _colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/ur_lab_unity_brid
 _colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/ur_lab_unity_bridge/hook/pythonpath.sh"
 _colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/ur_lab_unity_bridge/hook/pythonscriptspath.sh"
 _colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/ur_lab_unity_bridge/hook/ament_prefix_path.sh"
-_colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/../../build/ur_lab_unity_bridge/share/ur_lab_unity_bridge/hook/pythonpath_develop.sh"
 
 unset _colcon_package_sh_source_script
 unset COLCON_CURRENT_PREFIX

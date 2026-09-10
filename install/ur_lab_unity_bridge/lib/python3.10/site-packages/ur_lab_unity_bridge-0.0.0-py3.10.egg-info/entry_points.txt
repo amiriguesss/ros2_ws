@@ -1,0 +1,3 @@
+[console_scripts]
+unity_sim = ur_lab_unity_bridge.unity_sim:main
+

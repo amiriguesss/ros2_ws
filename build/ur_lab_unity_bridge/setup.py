@@ -1,1 +1,0 @@
-/mnt/c/Users/Amir/Downloads/ros2_ws/src/ur_lab_unity_bridge/setup.py
