@@ -1,0 +1,26 @@
+[0.788s] Invoking command in '/mnt/c/Users/Amir/Downloads/ros2_ws/build/ur_lab_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab:/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/Amir/Downloads/ros2_ws/build/ur_lab_gazebo -- -j16 -l16
+[1.564s] [ 50%] [32mBuilding CXX object CMakeFiles/grasp_welder.dir/src/grasp_welder.cpp.o[0m
+[13.936s] [100%] [32m[1mLinking CXX shared library libgrasp_welder.so[0m
+[19.173s] [100%] Built target grasp_welder
+[19.247s] Invoked command in '/mnt/c/Users/Amir/Downloads/ros2_ws/build/ur_lab_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab:/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/Amir/Downloads/ros2_ws/build/ur_lab_gazebo -- -j16 -l16
+[19.282s] Invoking command in '/mnt/c/Users/Amir/Downloads/ros2_ws/build/ur_lab_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab:/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/Amir/Downloads/ros2_ws/build/ur_lab_gazebo
+[19.361s] -- Install configuration: ""
+[19.396s] -- Execute custom install script
+[19.421s] -- Up-to-date symlink: /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab_gazebo/lib/libgrasp_welder.so
+[19.444s] -- Up-to-date symlink: /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab_gazebo/share/ur_lab_gazebo/environment/ur_lab_gazebo.dsv
+[19.476s] -- Up-to-date symlink: /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab_gazebo/share/ament_index/resource_index/package_run_dependencies/ur_lab_gazebo
+[19.509s] -- Up-to-date symlink: /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab_gazebo/share/ament_index/resource_index/parent_prefix_path/ur_lab_gazebo
+[19.521s] -- Up-to-date symlink: /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab_gazebo/share/ur_lab_gazebo/environment/ament_prefix_path.sh
+[19.535s] -- Up-to-date symlink: /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab_gazebo/share/ur_lab_gazebo/environment/ament_prefix_path.dsv
+[19.547s] -- Up-to-date symlink: /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab_gazebo/share/ur_lab_gazebo/environment/path.sh
+[19.562s] -- Up-to-date symlink: /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab_gazebo/share/ur_lab_gazebo/environment/path.dsv
+[19.575s] -- Up-to-date symlink: /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab_gazebo/share/ur_lab_gazebo/local_setup.bash
+[19.588s] -- Up-to-date symlink: /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab_gazebo/share/ur_lab_gazebo/local_setup.sh
+[19.602s] -- Up-to-date symlink: /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab_gazebo/share/ur_lab_gazebo/local_setup.zsh
+[19.615s] -- Up-to-date symlink: /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab_gazebo/share/ur_lab_gazebo/local_setup.dsv
+[19.621s] -- Symlinking: /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab_gazebo/share/ur_lab_gazebo/package.dsv
+[19.730s] -- Up-to-date symlink: /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab_gazebo/share/ament_index/resource_index/packages/ur_lab_gazebo
+[19.743s] -- Up-to-date symlink: /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab_gazebo/share/ur_lab_gazebo/cmake/ur_lab_gazeboConfig.cmake
+[19.755s] -- Up-to-date symlink: /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab_gazebo/share/ur_lab_gazebo/cmake/ur_lab_gazeboConfig-version.cmake
+[19.769s] -- Up-to-date symlink: /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab_gazebo/share/ur_lab_gazebo/package.xml
+[19.772s] Invoked command in '/mnt/c/Users/Amir/Downloads/ros2_ws/build/ur_lab_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab:/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/Amir/Downloads/ros2_ws/build/ur_lab_gazebo

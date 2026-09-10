@@ -1,0 +1,20 @@
+[3.889s] Invoking command in '/mnt/c/Users/Amir/Downloads/ros2_ws/build/ur_lab': PYTHONPATH=/mnt/c/Users/Amir/Downloads/ros2_ws/build/ur_lab/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /mnt/c/Users/Amir/Downloads/ros2_ws/build/ur_lab/build --no-deps symlink_data
+[4.589s] running develop
+[4.893s] running egg_info
+[4.896s] writing ur_lab.egg-info/PKG-INFO
+[4.902s] writing dependency_links to ur_lab.egg-info/dependency_links.txt
+[4.908s] writing entry points to ur_lab.egg-info/entry_points.txt
+[4.914s] writing requirements to ur_lab.egg-info/requires.txt
+[4.925s] writing top-level names to ur_lab.egg-info/top_level.txt
+[5.048s] reading manifest file 'ur_lab.egg-info/SOURCES.txt'
+[5.206s] writing manifest file 'ur_lab.egg-info/SOURCES.txt'
+[5.218s] running build_ext
+[5.220s] Creating /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab/lib/python3.10/site-packages/ur-lab.egg-link (link to .)
+[5.244s] Installing add_scene script to /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab/lib/ur_lab
+[5.267s] Installing move_robot script to /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab/lib/ur_lab
+[5.288s] Installing pick_cube script to /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab/lib/ur_lab
+[5.312s] Installing scan_pick script to /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab/lib/ur_lab
+[5.335s] 
+[5.337s] Installed /mnt/c/Users/Amir/Downloads/ros2_ws/build/ur_lab
+[5.339s] running symlink_data
+[5.504s] Invoked command in '/mnt/c/Users/Amir/Downloads/ros2_ws/build/ur_lab' returned '0': PYTHONPATH=/mnt/c/Users/Amir/Downloads/ros2_ws/build/ur_lab/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /mnt/c/Users/Amir/Downloads/ros2_ws/build/ur_lab/build --no-deps symlink_data
