@@ -1,0 +1,26 @@
+[6.567s] Invoking command in '/mnt/c/Users/Amir/Downloads/ros2_ws/build/ur_lab_unity_bridge': AMENT_PREFIX_PATH=/mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab:/mnt/c/Users/Amir/Downloads/ros2_ws/install/ros_tcp_endpoint:/mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_simulation_gazebo:/mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab_gazebo:/opt/ros/humble PYTHONPATH=/mnt/c/Users/Amir/Downloads/ros2_ws/build/ur_lab_unity_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab_unity_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /mnt/c/Users/Amir/Downloads/ros2_ws/build/ur_lab_unity_bridge/build --no-deps symlink_data
+[8.242s] running develop
+[8.681s] running egg_info
+[8.684s] creating ur_lab_unity_bridge.egg-info
+[8.686s] writing ur_lab_unity_bridge.egg-info/PKG-INFO
+[8.692s] writing dependency_links to ur_lab_unity_bridge.egg-info/dependency_links.txt
+[8.698s] writing entry points to ur_lab_unity_bridge.egg-info/entry_points.txt
+[8.703s] writing requirements to ur_lab_unity_bridge.egg-info/requires.txt
+[8.706s] writing top-level names to ur_lab_unity_bridge.egg-info/top_level.txt
+[8.712s] writing manifest file 'ur_lab_unity_bridge.egg-info/SOURCES.txt'
+[8.777s] reading manifest file 'ur_lab_unity_bridge.egg-info/SOURCES.txt'
+[8.832s] writing manifest file 'ur_lab_unity_bridge.egg-info/SOURCES.txt'
+[8.858s] running build_ext
+[8.862s] Creating /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab_unity_bridge/lib/python3.10/site-packages/ur-lab-unity-bridge.egg-link (link to .)
+[8.888s] Installing unity_sim script to /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab_unity_bridge/bin
+[8.906s] 
+[8.909s] Installed /mnt/c/Users/Amir/Downloads/ros2_ws/build/ur_lab_unity_bridge
+[8.912s] running symlink_data
+[8.922s] creating /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab_unity_bridge/share/ament_index
+[8.926s] creating /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab_unity_bridge/share/ament_index/resource_index
+[8.930s] creating /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab_unity_bridge/share/ament_index/resource_index/packages
+[8.953s] symbolically linking /mnt/c/Users/Amir/Downloads/ros2_ws/build/ur_lab_unity_bridge/resource/ur_lab_unity_bridge -> /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab_unity_bridge/share/ament_index/resource_index/packages
+[8.978s] symbolically linking /mnt/c/Users/Amir/Downloads/ros2_ws/build/ur_lab_unity_bridge/package.xml -> /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab_unity_bridge/share/ur_lab_unity_bridge
+[8.989s] creating /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab_unity_bridge/share/ur_lab_unity_bridge/launch
+[9.006s] symbolically linking /mnt/c/Users/Amir/Downloads/ros2_ws/build/ur_lab_unity_bridge/launch/unity_sim.launch.py -> /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab_unity_bridge/share/ur_lab_unity_bridge/launch
+[9.033s] Invoked command in '/mnt/c/Users/Amir/Downloads/ros2_ws/build/ur_lab_unity_bridge' returned '0': AMENT_PREFIX_PATH=/mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab:/mnt/c/Users/Amir/Downloads/ros2_ws/install/ros_tcp_endpoint:/mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_simulation_gazebo:/mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab_gazebo:/opt/ros/humble PYTHONPATH=/mnt/c/Users/Amir/Downloads/ros2_ws/build/ur_lab_unity_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_lab_unity_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /mnt/c/Users/Amir/Downloads/ros2_ws/build/ur_lab_unity_bridge/build --no-deps symlink_data
