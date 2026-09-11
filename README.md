@@ -6,6 +6,7 @@
 
 [![ROS 2](https://img.shields.io/badge/ROS%202-Humble-33254b?logo=ros&logoColor=white)](https://docs.ros.org/en/humble/)
 [![Gazebo](https://img.shields.io/badge/Gazebo-Classic%2011-f58113?logo=gazebo&logoColor=white)](https://classic.gazebosim.org/)
+[![Unity](https://img.shields.io/badge/Unity-2022.3.62f3-000000?logo=unity&logoColor=white)](https://unity.com/)
 [![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04%20LTS-E95420?logo=ubuntu&logoColor=white)](https://releases.ubuntu.com/22.04/)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Platform](https://img.shields.io/badge/arch-amd64%20%2F%20x86__64-blue)]()
@@ -25,6 +26,7 @@
 | 🧩 | **Custom `ur_lab` ROS 2 package** |
 | 🚀 | **Custom robot-control nodes** |
 | 🏗️ | **Universal Robots Gazebo simulation package** |
+| 🧱 | **Unity 2022.3.62f3 simulation (alternative to Gazebo)** |
 
 ---
 
@@ -37,6 +39,7 @@ This project is intended for the following environment:
 | **Operating System** | Ubuntu 22.04 LTS |
 | **ROS** | ROS 2 Humble |
 | **Gazebo** | Gazebo Classic 11 |
+| **Unity** | Unity 2022.3.62f3 |
 | **Python** | 3.10+ |
 | **Architecture** | amd64 / x86_64 |
 | **Shell** | Bash or Zsh |
@@ -49,6 +52,7 @@ This project is intended for the following environment:
 ## 📑 Table of Contents
 
 - [🚀 How to Simulate the Project](#-how-to-simulate-the-project)
+- [🎯 Unity Simulation](#-unity-simulation)
 - [📁 Project Structure](#-project-structure)
 - [🆕 Fresh Installation](#-fresh-installation)
 - [📥 Clone the Project](#-clone-the-project)
@@ -157,6 +161,53 @@ ros2 run ur_lab scan_pick
 ros2 run ur_lab move_robot    # moves the arm along a fixed trajectory
 ros2 run ur_lab pick_cube     # spawns one cube, grasps and lifts it
 ```
+
+---
+
+## 🎯 Unity Simulation
+
+Besides Gazebo, this project also supports simulation in **Unity 2022.3.62f3** using the `ur_lab_unity_bridge` package. If you want to simulate the project in Unity instead of Gazebo, follow the steps below.
+
+> ⚠️ **Important** — The workspace must already be built before running the Unity simulation. If you have just downloaded the project, build it first:
+>
+> ```bash
+> cd ~/Downloads/ros2_ws
+> colcon build --symlink-install
+> source /opt/ros/humble/setup.zsh
+> source install/setup.zsh
+> ```
+
+**Terminal 1** — launch the ROS-Unity bridge (keep it running):
+
+```bash
+export ROS_LOCALHOST_ONLY=1
+source /opt/ros/humble/setup.zsh
+source /mnt/c/Users/Amir/Downloads/ros2_ws/install/setup.zsh
+
+ros2 launch ur_lab_unity_bridge unity_sim.launch.py
+```
+
+**Terminal 2** — open the Unity project and load the `Lab` scene:
+
+```bash
+~/Unity/Hub/Editor/2022.3.62f3/Editor/Unity -projectPath ~/unity_ws/UR5eUnity -openfile ~/unity_ws/UR5eUnity/Assets/Scenes/Lab.unity
+```
+
+> ⚠️ Wait until the Unity editor has fully loaded the `Lab` scene before running the next commands.
+
+**Terminal 3** — run the scan and pick node:
+
+```bash
+export ROS_LOCALHOST_ONLY=1
+source /opt/ros/humble/setup.zsh
+source /mnt/c/Users/Amir/Downloads/ros2_ws/install/setup.zsh
+
+ros2 run ur_lab scan_pick
+```
+
+> ℹ️ `ROS_LOCALHOST_ONLY=1` keeps all ROS 2 communication on the local machine, which is required for the Unity-ROS bridge to communicate correctly.
+
+> ℹ️ The same commands work with Bash by replacing `setup.zsh` with `setup.bash`.
 
 ---
 ## 📁 Project Structure
