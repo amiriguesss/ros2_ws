@@ -1486,3 +1486,7 @@ If this project helped you, please consider giving it a ⭐ on GitHub!
 **Made with 🤖 and ROS 2 Humble**
 
 </div>
+
+## License
+
+Apache License 2.0 — see [LICENSE](LICENSE).
