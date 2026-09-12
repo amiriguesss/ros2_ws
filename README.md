@@ -194,6 +194,18 @@ ros2 launch ur_lab_unity_bridge unity_sim.launch.py
 ```
 
 > ⚠️ Wait until the Unity editor has fully loaded the `Lab` scene before running the next commands.
+> 📦 **Where to get this Unity project** — it lives in its own repository. Clone it once:
+>
+> ```bash
+> mkdir -p ~/unity_ws
+> git clone git@github.com:amiriguesss/UR5eUnity.git ~/unity_ws/UR5eUnity
+> ```
+>
+> On first open, Unity imports the assets and resolves the pinned packages
+> (`ros-tcp-connector v0.7.0`, `urdf-importer v0.5.2`) automatically. The
+> required `ROS2` scripting define is already stored in the project's
+> `ProjectSettings`, so no extra setup is needed.
+
 
 **Terminal 3** — run the scan and pick node:
 
