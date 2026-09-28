@@ -1,0 +1,53 @@
+[0.448s] Invoking command in '/mnt/c/Users/Amir/Downloads/ros2_ws/build/ur_simulation_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /mnt/c/Users/Amir/Downloads/ros2_ws/src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_simulation_gazebo
+[0.832s] -- The C compiler identification is GNU 11.4.0
+[1.457s] -- The CXX compiler identification is GNU 11.4.0
+[1.735s] -- Detecting C compiler ABI info
+[2.614s] -- Detecting C compiler ABI info - done
+[2.646s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.649s] -- Detecting C compile features
+[2.651s] -- Detecting C compile features - done
+[2.732s] -- Detecting CXX compiler ABI info
+[3.645s] -- Detecting CXX compiler ABI info - done
+[3.682s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.686s] -- Detecting CXX compile features
+[3.688s] -- Detecting CXX compile features - done
+[3.750s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.868s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.023s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.235s] -- Found launch_testing_ament_cmake: 1.0.14 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[4.237s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.382s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[5.397s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[5.399s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.402s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.405s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[5.408s] -- Found PythonExtra: .so  
+[5.411s] -- Found ament_cmake_pytest: 1.3.14 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[5.796s] -- Configuring done
+[6.140s] -- Generating done
+[6.362s] -- Build files have been written to: /mnt/c/Users/Amir/Downloads/ros2_ws/build/ur_simulation_gazebo
+[6.365s] Invoked command in '/mnt/c/Users/Amir/Downloads/ros2_ws/build/ur_simulation_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /mnt/c/Users/Amir/Downloads/ros2_ws/src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_simulation_gazebo
+[6.376s] Invoking command in '/mnt/c/Users/Amir/Downloads/ros2_ws/build/ur_simulation_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/Amir/Downloads/ros2_ws/build/ur_simulation_gazebo -- -j16 -l16
+[6.481s] Invoked command in '/mnt/c/Users/Amir/Downloads/ros2_ws/build/ur_simulation_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/Amir/Downloads/ros2_ws/build/ur_simulation_gazebo -- -j16 -l16
+[6.510s] Invoking command in '/mnt/c/Users/Amir/Downloads/ros2_ws/build/ur_simulation_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/Amir/Downloads/ros2_ws/build/ur_simulation_gazebo
+[6.519s] -- Install configuration: ""
+[6.531s] -- Execute custom install script
+[6.579s] -- Symlinking: /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/config/ur_controllers.yaml
+[6.660s] -- Symlinking: /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/launch/ur_sim_control.launch.py
+[6.704s] -- Symlinking: /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/launch/ur_sim_moveit.launch.py
+[6.759s] -- Symlinking: /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_simulation_gazebo/share/ament_index/resource_index/package_run_dependencies/ur_simulation_gazebo
+[6.829s] -- Symlinking: /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_simulation_gazebo/share/ament_index/resource_index/parent_prefix_path/ur_simulation_gazebo
+[6.893s] -- Symlinking: /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/environment/ament_prefix_path.sh
+[6.937s] -- Symlinking: /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/environment/ament_prefix_path.dsv
+[6.977s] -- Symlinking: /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/environment/path.sh
+[7.013s] -- Symlinking: /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/environment/path.dsv
+[7.054s] -- Symlinking: /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/local_setup.bash
+[7.095s] -- Symlinking: /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/local_setup.sh
+[7.141s] -- Symlinking: /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/local_setup.zsh
+[7.189s] -- Symlinking: /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/local_setup.dsv
+[7.231s] -- Symlinking: /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.dsv
+[7.292s] -- Symlinking: /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_simulation_gazebo/share/ament_index/resource_index/packages/ur_simulation_gazebo
+[7.360s] -- Symlinking: /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/cmake/ur_simulation_gazeboConfig.cmake
+[7.403s] -- Symlinking: /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/cmake/ur_simulation_gazeboConfig-version.cmake
+[7.446s] -- Symlinking: /mnt/c/Users/Amir/Downloads/ros2_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.xml
+[7.476s] Invoked command in '/mnt/c/Users/Amir/Downloads/ros2_ws/build/ur_simulation_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/Amir/Downloads/ros2_ws/build/ur_simulation_gazebo
